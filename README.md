@@ -79,14 +79,7 @@ A full-stack MERN app that turns "what should I wear today?" into an API call.
 
 ---
 
-### 📊 GitHub Stats
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=archikumari0770&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=archikumari0770&layout=compact&theme=default&hide_border=true" />
-</div>
-
----
 
 ### 🏆 Achievements
 
