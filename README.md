@@ -68,18 +68,6 @@ Full-stack MERN app that recommends outfits based on live weather data, with col
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=archikumari0770&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=archikumari0770&layout=compact&theme=default&hide_border=true" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=archikumari0770&theme=default&hide_border=true" />
-</div>
-
----
 
 ### 🐍 Contribution Snake
 
