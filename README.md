@@ -1,16 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2F5597,50:5046E5,100:8F7EF7&height=220&section=header&text=Archi%20Kumari&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Agent%20Developer%20%7C%20Full-Stack%20Builder&descAlignY=58&descSize=19" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141321,50:FE428E,100:A9FEF7&height=220&section=header&text=Archi%20Kumari&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Agent%20Developer%20%7C%20Full-Stack%20Builder&descAlignY=58&descSize=19" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="28"/>&nbsp;&nbsp;<b>Welcome to my profile!</b>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=23&pause=1000&color=5046E5&center=true&vCenter=true&width=650&lines=AI+%2B+ML+Developer;Full-Stack+Builder;Compiler+%26+Systems+Enthusiast;Turning+ideas+into+shipped+code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=23&pause=1000&color=FE428E&center=true&vCenter=true&width=650&lines=AI+%2B+ML+Developer;Full-Stack+Builder;Compiler+%26+Systems+Enthusiast;Turning+ideas+into+shipped+code" alt="Typing SVG" />
 </a>
 
 <p>
   📍 Noida, Uttar Pradesh &nbsp;·&nbsp; 🎓 B.Tech CSE (AIML) @ IILM University &nbsp;·&nbsp; 📫 archikumari0770@gmail.com
 </p>
+
+<img src="https://komarev.com/ghpvc/?username=archikumari0770&color=fe428e&style=flat-square&label=Profile+Views" />
 
 </div>
 
@@ -30,7 +32,7 @@ I build things that connect machine learning to real, usable software — from a
 ### 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,js,pytorch,tensorflow,nodejs,react,express,mongodb,postgres,redis&theme=light" />
+  <img src="https://skillicons.dev/icons?i=python,java,c,js,pytorch,tensorflow,nodejs,react,express,mongodb,postgres,redis&theme=dark" />
 </div>
 
 ---
@@ -79,9 +81,24 @@ A full-stack MERN app that turns "what should I wear today?" into an API call.
 
 ---
 
+### 📊 GitHub Stats
 
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=archikumari0770&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=archikumari0770&layout=compact&theme=radical&hide_border=true" />
+</div>
 
-### 🏆 Achievements
+---
+
+### 🏆 Trophy Case
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=archikumari0770&theme=radical&no-frame=true&column=4&margin-w=8&margin-h=8" />
+</div>
+
+---
+
+### 🎖️ Achievements
 
 - 🥈 2nd Place, SGU College Hackathon (March 2026)
 - 🏁 Internal SIH 2025 Finalist — built a brain-computer interface to detect words from brain signals
@@ -94,8 +111,8 @@ A full-stack MERN app that turns "what should I wear today?" into an API call.
 
 ### 📫 Reach Me
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:archikumari0770@gmail.com)
+[![Email](https://img.shields.io/badge/Email-FE428E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:archikumari0770@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8F7EF7,50:5046E5,100:2F5597&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A9FEF7,50:FE428E,100:141321&height=120&section=footer" width="100%"/>
 
 </div>
