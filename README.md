@@ -31,53 +31,109 @@ I build things that connect machine learning to real, usable software — from a
 
 ### 🛠️ Tech Stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,js,pytorch,tensorflow,nodejs,react,express,mongodb,postgres,redis&theme=dark" />
-</div>
+<table>
+<tr>
+<td align="center" width="120"><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=python,java,c,js,html,css&theme=dark" /></td>
+</tr>
+<tr>
+<td align="center"><b>AI / ML</b></td>
+<td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" /></td>
+</tr>
+<tr>
+<td align="center"><b>Backend &amp; DB</b></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,redis&theme=dark" /></td>
+</tr>
+<tr>
+<td align="center"><b>Frontend</b></td>
+<td><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" /></td>
+</tr>
+<tr>
+<td align="center"><b>Tools</b></td>
+<td><img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" /></td>
+</tr>
+</table>
 
 ---
 
 ### 🚀 Featured Projects
 
-#### 🔄 [ReachInbox Mini](https://github.com/archikumari0770/reachinbox-scheduler) — Email Scheduler + Dashboard
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:141321,100:FE428E&height=55&text=🔄%20ReachInbox%20Mini&fontSize=20&fontColor=ffffff&fontAlignY=55" width="100%"/>
 
-A production-shaped email scheduling system built around the idea that scheduling has to survive restarts, crashes, and duplicate attempts without ever double-sending or losing an email.
+**Production-shaped email scheduler + dashboard.** Built around one rule: scheduling has to survive restarts and never double-send.
 
-- ⚡ **Exact-time delivery** via BullMQ delayed jobs backed by Redis (AOF-persisted, so nothing's lost on restart)
-- 🔒 **Idempotent by design** — deterministic job IDs + a database-level claim guard mean a job can never be processed twice, even under worst-case retries
-- 🚦 **Per-sender hourly rate limiting** using atomic Redis counters, with over-limit emails automatically rescheduled (never dropped) into the next hour
-- 🔔 **Live Slack alerts** the moment a rate limit is hit, via a real Slack OAuth v2 integration
-- 🔍 **Elasticsearch-backed search** across sent/scheduled mail
-- 🔑 **Real Google OAuth login**, deployed end-to-end on Railway + Vercel — including surviving a cross-domain cookie bug and two separate OAuth redirect-URI bugs along the way
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-#### ⚙️ [Mini Compiler](https://github.com/archikumari0770/mini-compiler) — Hand-Written 6-Phase Compiler Pipeline
+- ⚡ Exact-time delivery via BullMQ delayed jobs on Redis (AOF-persisted)
+- 🔒 Idempotent by design — DB-level claim guard, deterministic job IDs
+- 🚦 Per-sender hourly rate limits, rescheduled not dropped
+- 🔔 Live Slack alerts on rate-limit hits via real Slack OAuth v2
+- 🔍 Elasticsearch-backed search across sent/scheduled mail
 
-A from-scratch Java compiler, no parser-generator libraries — every phase hand-written to actually understand how a compiler works internally, not just call one.
+**[→ View Repository](https://github.com/archikumari0770/reachinbox-scheduler)**
 
-- 📝 **Full lexer** — keywords, identifiers, numbers, string/char literals, comments, multi-character operators
-- 🌳 **Recursive-descent parser** with correct operator precedence (handles `*`/`/` binding tighter than `+`/`-`, and nested parentheses) via a proper `E → T → F` grammar
-- 🧮 **Three-address code generation** from a post-order AST traversal
-- 🚀 **DAG-based optimizer** that performs real **common-subexpression elimination** — if two expressions compute the same thing, it's computed once and reused, and dead (unused) values are dropped automatically
-- ✅ **Semantic checking** for use-before-assignment, plus simulated x86-style assembly codegen to show the full pipeline end-to-end
+</td>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:141321,100:A9FEF7&height=55&text=⚙️%20Mini%20Compiler&fontSize=20&fontColor=ffffff&fontAlignY=55" width="100%"/>
 
-#### 📊 [Regression Bias Detector](https://github.com/archikumari0770/Bais_Detector) — ML Model Diagnostics Tool
+**Hand-written 6-phase Java compiler.** No parser-generator libraries — every phase built to actually understand how a compiler works.
 
-Turns "does my model look overfit?" from a judgment call into an automated, evidence-based verdict.
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 
-- 🔬 **14 diagnostic features** extracted per model — train/test error gap, residual statistics, cross-validation stability, learning-curve gap, model complexity, and more
-- 🧠 **Neural network classifier**, trained on hundreds of synthetically generated underfit/overfit/well-fit examples, to make the actual call
-- 🎯 **Confidence-scored verdict**: underfitting, overfitting, or well-fitted — not just a guess
-- 🛠️ **Actionable fixes** — flags the *specific* hyperparameter likely causing the issue (e.g. `max_depth`, `alpha`) and suggests a concrete fix
-- 📈 **Full diagnostic visualization** — a 6-panel report covering predicted-vs-actual, residuals, and learning curves in one image
+- 📝 Full lexer: keywords, literals, comments, multi-char operators
+- 🌳 Recursive-descent parser with correct operator precedence
+- 🧮 Three-address code generation via post-order AST traversal
+- 🚀 DAG-based optimizer — real common-subexpression elimination
+- ✅ Semantic checks + simulated x86-style assembly codegen
 
-#### 👗 [AI Fashion Recommender](https://github.com/archikumari0770/AI-fashion-Recommendation) — Weather-Based Outfit Generator
+**[→ View Repository](https://github.com/archikumari0770/mini-compiler)**
 
-A full-stack MERN app that turns "what should I wear today?" into an API call.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:141321,100:FED766&height=55&text=📊%20Bias%20Detector&fontSize=20&fontColor=ffffff&fontAlignY=55" width="100%"/>
 
-- 🌦️ **Live weather integration** via the OpenWeatherMap API, classified into weather categories (hot/warm/cool/cold)
-- 👕 **Smart outfit generation** — samples matching tops, bottoms, outerwear, accessories, and footwear from MongoDB based on the current weather category
-- 🎨 **Color-compatibility filtering** — accessories are matched to actually complement the outfit's colors, not just picked at random
-- 🔁 **"Get Different Outfit"** — re-roll for a new combination within the same weather category, instantly
+**ML model diagnostics tool.** Turns "does my model look overfit?" into an automated, evidence-based verdict.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+
+- 🔬 14 diagnostic features per model (residuals, CV stability, learning-curve gap)
+- 🧠 Neural network classifier trained on synthetic under/overfit examples
+- 🎯 Confidence-scored verdict, not just a guess
+- 🛠️ Flags the specific hyperparameter causing the issue, with a fix
+- 📈 6-panel diagnostic visualization in one image
+
+**[→ View Repository](https://github.com/archikumari0770/Bais_Detector)**
+
+</td>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:141321,100:B983FF&height=55&text=👗%20AI%20Fashion&fontSize=20&fontColor=ffffff&fontAlignY=55" width="100%"/>
+
+**Weather-based outfit generator.** Turns "what should I wear today?" into an API call.
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+- 🌦️ Live weather via OpenWeatherMap, classified into weather categories
+- 👕 Outfit sampled from MongoDB matching the current category
+- 🎨 Color-compatibility filtering on accessories, not random picks
+- 🔁 Instant "Get Different Outfit" re-roll
+
+**[→ View Repository](https://github.com/archikumari0770/AI-fashion-Recommendation)**
+
+</td>
+</tr>
+</table>
 
 ---
 
